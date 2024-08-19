@@ -1,3 +1,23 @@
+## next
+
+## 1.8.0 / 2024-10-23
+
+* Added BMC watchdog collector (#176)
+* Added SEL event metrics collector (#179)
+* Various dependency updates
+
+## 1.7.0 / 2023-10-18
+
+* Update common files
+* Update build
+* Update golang to 1.21
+* Update dependencies
+* Switch to Alpine-based Docker image
+* Add missing error handling
+* Added chassis cooling fault and drive fault metrics
+* Now, `ipmi_dcmi_power_consumption_watts` metric is not present if Power
+Measurement feature is not present. Before this change - the value was zero
+
 ## 1.6.1 / 2022-06-17
 
 * Another "I screwed up the release" release
